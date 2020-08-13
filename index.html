@@ -8,7 +8,7 @@
             margin: 0;
             min-width: 600px;
             font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-            color: #2c2c2c;
+            color: #464646;
             font-size: 16px;
         }
 
@@ -16,11 +16,15 @@
             color: white;
             background-color: #464646;
             margin: 0;
-            padding: 20px 20px;
+            padding: 20px 20px 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
-        p {
-            color: red;
+        .helpLink,
+        .helpLink:visited{
+            color: white;
         }
 
         .menuRow {
@@ -114,7 +118,7 @@
         }
 
         console.log(graphElement)
-        const insertSvg = function (svgCode, bindFunctions) {
+        const insertSvg = function (svgCode) {
           currentSvgCode = svgCode;
           graphElement.innerHTML = svgCode;
         };
@@ -164,7 +168,7 @@
 
           const reader = new FileReader();
           reader.onload = (e) => {
-            output = e.target.result;
+            const output = e.target.result;
             const diagramCode = document.querySelector("#diagramCode");
             diagramCode.value = output
             loadSvg()
@@ -180,6 +184,12 @@
 <body>
 <div class="header">
     <h1>Mermaid Editor</h1>
+    <a
+       class="helpLink"
+       href="https://mermaid-js.github.io/"
+       target="_blank"
+       rel="noopener"
+    >Help</a>
 </div>
 <div class="menuRow">
     <div class="fileInput">
