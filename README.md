@@ -20,12 +20,16 @@ Alternatively, it can be hosted on a server in your organization. Moreover, this
 
 ### Usage
 
+Want to run it on your machine? 
+
 1. Download `index.html`
 1. Open it in browser
 1. Enjoy!
+
+Online-version:  https://denolia.github.io/mermaid-editor/
 
 ### Contribution
 
 Feel free to request enhancements or report bugs here: https://github.com/denolia/mermaid-editor/issues/new 
 
-If you can make this app better, please do so by submitting a PR.   
+If you can make this app better, please submit a PR.   
