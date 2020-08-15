@@ -27,4 +27,5 @@ Alternatively, it can be hosted on a server in your organization. Moreover, this
 ### Contribution
 
 Feel free to request enhancements or report bugs here: https://github.com/denolia/mermaid-editor/issues/new 
-You can contribute by submitting a PR.   
+
+If you can make this app better, please do so by submitting a PR.   
